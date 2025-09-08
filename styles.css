@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #000022 0%, #001242 50%, #040F16 100%);
     min-height: 100vh;
     padding: 20px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .new-book-btn {
-    background: #4CAF50;
+    background: #0094C6;
     color: white;
     border: none;
     padding: 15px 30px;
@@ -48,13 +48,13 @@ body {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 148, 198, 0.3);
 }
 
 .new-book-btn:hover {
-    background: #45a049;
+    background: #005E7C;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 148, 198, 0.4);
 }
 
 .books-grid {
@@ -70,7 +70,7 @@ body {
     padding: 25px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
     transition: all 0.3s ease;
-    border-left: 5px solid #667eea;
+    border-left: 5px solid #0094C6;
 }
 
 .book-card:hover {
@@ -79,13 +79,13 @@ body {
 }
 
 .book-card.read {
-    border-left-color: #4CAF50;
-    background: linear-gradient(135deg, #f8fff8 0%, #e8f5e8 100%);
+    border-left-color: #0094C6;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
 }
 
 .book-card.not-read {
-    border-left-color: #ff6b6b;
-    background: linear-gradient(135deg, #fff8f8 0%, #ffe8e8 100%);
+    border-left-color: #005E7C;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
 }
 
 .book-title {
@@ -117,12 +117,12 @@ body {
 }
 
 .status-read {
-    background: #4CAF50;
+    background: #0094C6;
     color: white;
 }
 
 .status-not-read {
-    background: #ff6b6b;
+    background: #005E7C;
     color: white;
 }
 
@@ -142,21 +142,21 @@ body {
 }
 
 .btn-toggle {
-    background: #2196F3;
+    background: #0094C6;
     color: white;
 }
 
 .btn-toggle:hover {
-    background: #1976D2;
+    background: #005E7C;
 }
 
 .btn-remove {
-    background: #f44336;
+    background: #001242;
     color: white;
 }
 
 .btn-remove:hover {
-    background: #d32f2f;
+    background: #000022;
 }
 
 /* Modal Styles */
@@ -242,7 +242,7 @@ body {
 .form-group input:focus,
 .form-group select:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #0094C6;
 }
 
 .checkbox-group {
@@ -263,7 +263,7 @@ body {
 }
 
 .btn-primary {
-    background: #667eea;
+    background: #0094C6;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -275,11 +275,11 @@ body {
 }
 
 .btn-primary:hover {
-    background: #5a6fd8;
+    background: #005E7C;
 }
 
 .btn-secondary {
-    background: #6c757d;
+    background: #001242;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -291,7 +291,7 @@ body {
 }
 
 .btn-secondary:hover {
-    background: #5a6268;
+    background: #000022;
 }
 
 .empty-state {
